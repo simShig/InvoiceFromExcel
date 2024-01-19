@@ -57,8 +57,8 @@ for filepath in filepaths:
 
     # Add company name and logo
     pdf.set_font(family="Times", size=14, style="B")
-    pdf.cell(w=25, h=8, txt=f"PythonHow")
-    pdf.image("pythonhow.png", w=10)
+    pdf.cell(w=25, h=8, txt=f"Simon's Lion King", ln=1)
+    pdf.image("logo.png", w=20, x=20)
 
 
     pdf.output(f"PDFs/{filename}.pdf")
